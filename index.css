@@ -1,0 +1,221 @@
+html
+{
+  background-color: #ffffff;
+  padding:0;
+  margin:0;
+  padding-bottom: 20px;
+}
+
+a
+{
+  text-decoration: none; 
+  color:#ffffff;
+}
+
+
+
+body
+{
+  padding:0;
+  margin:0;
+}
+
+body#front-page
+{
+  background-image:url('tea-leaves.jpg');
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul.top-menu-bar
+{
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #8D8749;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.menu-item
+{
+  display: block;
+  float: right;
+}
+
+li.menu-item a
+{
+  background-color: #DAAD86;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+li.menu-item a:hover
+{
+  background-color: #BC986A;
+}
+
+
+
+p.welcome
+{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fffffb;
+  font-size: 40px;
+}
+
+
+p.new-you
+{ 
+  color: #fffffb;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  border-radius: 15px;
+  border-style: dashed; 
+  display: inline;
+}
+
+
+
+p.new-you a:hover
+{
+  font-size: 50px;
+}
+
+
+img#tea-shelf
+{
+  float:left;
+  padding-top: 900px;
+  width: 50%
+}
+
+
+div.about-us
+{
+  padding-top: 800px;
+  padding-bottom: 50px;
+  float: right;
+  color:#7bbcaf;
+  text-align: center;
+  font-size: 3vw;
+}
+
+
+p#freshly-sourced
+{
+  padding-bottom: 50px;
+}
+
+
+p#smell-aroma
+{
+  padding-bottom: 50px;
+}
+
+p#senses
+{
+  padding-bottom: 50px;
+}
+
+p#new-you
+{
+  padding-bottom: 50px;
+}
+p.contact-info
+{
+  text-align: center;
+  padding-top: 75px;
+  color: #fff
+}
+
+img.cartoon-tea
+{
+  float: right;
+  padding-top: 40px;
+  width: 40%;
+  padding-bottom: 40px;
+}
+
+
+
+div#services
+{
+  padding:100px;
+
+}
+
+
+p#description
+{
+  text-align: center;
+  color:#454646;
+  font-size: 1.6vw;
+  padding-bottom: 40px;
+}
+
+img.tea-farm
+{
+  float: left;
+  padding-top: 40px;
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+
+p#tea-farm
+{
+  padding-top: 90px;
+  text-align: center;
+  color:#454646;
+  font-size: 1.6vw;
+  padding-bottom: 40px;
+
+}
+
+li.contact-list-item
+{
+  color: #454646;
+}
+
+
+
+ul.contact-list
+{
+  font-size: 1.9vw;
+  text-align: center;
+}
+
+img.global-tea
+{
+  padding-top: -100px;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+}
